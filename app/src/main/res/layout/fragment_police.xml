@@ -5,25 +5,29 @@
 
     <!--Red Layout-->
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
 
         <!--Bloue Layout-->
         <LinearLayout
-            android:orientation="horizontal"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
             <!--Green Layout-->
             <RelativeLayout
                 android:layout_width="150dp"
                 android:layout_height="150dp">
 
+                <!--Station1-->
                 <ImageView
-                    android:src="@drawable/stationa1"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
+                    android:layout_height="match_parent"
+                    android:src="@drawable/stationa1" />
 
             </RelativeLayout>
 
@@ -32,37 +36,32 @@
             <RelativeLayout
                 android:layout_width="150dp"
                 android:layout_height="150dp">
-
+                <!--Station2-->
                 <ImageView
-                    android:src="@drawable/stationa1"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
+                    android:layout_height="match_parent"
+                    android:src="@drawable/station2" />
 
             </RelativeLayout>
-
-
-
-
-
 
 
         </LinearLayout>
 
         <!--Bloue Layout-->
         <LinearLayout
-            android:orientation="horizontal"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
             <!--Green Layout-->
             <RelativeLayout
                 android:layout_width="150dp"
                 android:layout_height="150dp">
-
+                <!--Station3-->
                 <ImageView
-                    android:src="@drawable/stationa1"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
+                    android:layout_height="match_parent"
+                    android:src="@drawable/station3" />
 
             </RelativeLayout>
 
@@ -70,18 +69,13 @@
             <RelativeLayout
                 android:layout_width="150dp"
                 android:layout_height="150dp">
-
+                <!--Station4-->
                 <ImageView
-                    android:src="@drawable/stationa1"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
+                    android:layout_height="match_parent"
+                    android:src="@drawable/station4" />
 
             </RelativeLayout>
-
-
-
-
-
 
 
         </LinearLayout>
