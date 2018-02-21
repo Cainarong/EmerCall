@@ -45,6 +45,8 @@ public class MainActivity extends AppCompatActivity {
             getSupportFragmentManager().beginTransaction()
                     .add(R.id.contenMainFragent, new MainFragment()).commit();
 
+
+
         }
 
 
