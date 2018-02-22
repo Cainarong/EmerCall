@@ -58,6 +58,102 @@
             android:text="Drawer Menu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
+        <!--Police-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+            <!--icon-->
+            <ImageView
+                android:src="@drawable/stationa1"
+                android:layout_width="48dp"
+                android:layout_height="48dp" />
+            
+            <!--Title-->
+                <TextView
+                    android:id="@+id/txtPolice"
+                    android:clickable="true"
+                    android:textSize="30dp"
+                    android:text="Police"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            
+            
+        </LinearLayout>
+
+        <!--Hospotal-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--icon-->
+            <ImageView
+                android:src="@drawable/station2"
+                android:layout_width="48dp"
+                android:layout_height="48dp" />
+
+            <!--Title-->
+            <TextView
+                android:id="@+id/txtHospital"
+                android:clickable="true"
+                android:textSize="30dp"
+                android:text="Hospotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+
+        <!--insurance-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--icon-->
+            <ImageView
+                android:src="@drawable/station3"
+                android:layout_width="48dp"
+                android:layout_height="48dp" />
+
+            <!--Title-->
+            <TextView
+                android:id="@+id/txtinsurance"
+                android:clickable="true"
+                android:textSize="30dp"
+                android:text="insurance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <!--Exit-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--icon-->
+            <ImageView
+                android:src="@drawable/station4"
+                android:layout_width="48dp"
+                android:layout_height="48dp" />
+
+            <!--Title-->
+            <TextView
+                android:id="@+id/txtExit"
+                android:clickable="true"
+                android:textSize="30dp"
+                android:text="Exit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
 
     </LinearLayout>
 </android.support.v4.widget.DrawerLayout>
